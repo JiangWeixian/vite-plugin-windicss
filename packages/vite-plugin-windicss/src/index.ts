@@ -78,8 +78,6 @@ function VitePluginWindicss(userOptions: UserOptions = {}, utilsOptions: WindiPl
                 }
               )
 
-              console.log(next)
-  
               ms = ms || new MagicString(code)
               ms.overwrite(
                 node.start,
