@@ -64,39 +64,40 @@ importers:
 
   examples/attributify-prefix:
     specifiers:
+      '@jiangweixian1994/vite-plugin-windicss': workspace:*
       '@vitejs/plugin-vue': ^1.2.5
       '@vue/compiler-sfc': ^3.1.5
       cross-env: ^7.0.3
       nodemon: ^2.0.12
       typescript: ^4.3.5
       vite: ^2.4.3
-      vite-plugin-windicss: workspace:*
       vue: ^3.1.5
     dependencies:
       vue: 3.1.5
     devDependencies:
+      '@jiangweixian1994/vite-plugin-windicss': link:../../packages/vite-plugin-windicss
       '@vitejs/plugin-vue': 1.2.5_@vue+compiler-sfc@3.1.5
       '@vue/compiler-sfc': 3.1.5_vue@3.1.5
       cross-env: 7.0.3
       nodemon: 2.0.12
       typescript: 4.3.5
       vite: 2.4.3
-      vite-plugin-windicss: link:../../packages/vite-plugin-windicss
 
   examples/plugins:
     specifiers:
+      '@jiangweixian1994/vite-plugin-windicss': workspace:*
       typescript: ^4.3.5
       vite: ^2.4.3
-      vite-plugin-windicss: workspace:*
       windicss: ^3.1.6
     devDependencies:
+      '@jiangweixian1994/vite-plugin-windicss': link:../../packages/vite-plugin-windicss
       typescript: 4.3.5
       vite: 2.4.3
-      vite-plugin-windicss: link:../../packages/vite-plugin-windicss
       windicss: 3.1.6
 
   examples/react:
     specifiers:
+      '@jiangweixian1994/vite-plugin-windicss': workspace:*
       '@types/react': 17.0.15
       '@types/react-dom': 17.0.9
       '@vitejs/plugin-react-refresh': ^1.3.5
@@ -105,41 +106,41 @@ importers:
       styled-components: ^5.3.0
       typescript: ^4.3.5
       vite: ^2.4.3
-      vite-plugin-windicss: workspace:*
     dependencies:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       styled-components: 5.3.0_react-dom@17.0.2+react@17.0.2
     devDependencies:
+      '@jiangweixian1994/vite-plugin-windicss': link:../../packages/vite-plugin-windicss
       '@types/react': 17.0.15
       '@types/react-dom': 17.0.9
-      '@vitejs/plugin-react-refresh': 1.3.5
+      '@vitejs/plugin-react-refresh': 1.3.5_rollup@2.54.0
       typescript: 4.3.5
       vite: 2.4.3
-      vite-plugin-windicss: link:../../packages/vite-plugin-windicss
 
   examples/vanilla-cjs:
     specifiers:
+      '@jiangweixian1994/vite-plugin-windicss': workspace:*
       vite: ^2.4.3
-      vite-plugin-windicss: workspace:*
       windicss: ^3.1.6
     devDependencies:
+      '@jiangweixian1994/vite-plugin-windicss': link:../../packages/vite-plugin-windicss
       vite: 2.4.3
-      vite-plugin-windicss: link:../../packages/vite-plugin-windicss
       windicss: 3.1.6
 
   examples/vanilla-esm:
     specifiers:
+      '@jiangweixian1994/vite-plugin-windicss': workspace:*
       vite: ^2.4.3
-      vite-plugin-windicss: workspace:*
       windicss: ^3.1.6
     devDependencies:
+      '@jiangweixian1994/vite-plugin-windicss': link:../../packages/vite-plugin-windicss
       vite: 2.4.3
-      vite-plugin-windicss: link:../../packages/vite-plugin-windicss
       windicss: 3.1.6
 
   examples/vue:
     specifiers:
+      '@jiangweixian1994/vite-plugin-windicss': workspace:*
       '@vitejs/plugin-vue': ^1.2.5
       '@vue/compiler-sfc': ^3.1.5
       cross-env: ^7.0.3
@@ -148,11 +149,11 @@ importers:
       stylus: ^0.54.8
       typescript: ^4.3.5
       vite: ^2.4.3
-      vite-plugin-windicss: workspace:*
       vue: ^3.1.5
     dependencies:
       vue: 3.1.5
     devDependencies:
+      '@jiangweixian1994/vite-plugin-windicss': link:../../packages/vite-plugin-windicss
       '@vitejs/plugin-vue': 1.2.5_@vue+compiler-sfc@3.1.5
       '@vue/compiler-sfc': 3.1.5_vue@3.1.5
       cross-env: 7.0.3
@@ -161,10 +162,10 @@ importers:
       stylus: 0.54.8
       typescript: 4.3.5
       vite: 2.4.3
-      vite-plugin-windicss: link:../../packages/vite-plugin-windicss
 
   examples/vue-pug:
     specifiers:
+      '@jiangweixian1994/vite-plugin-windicss': workspace:*
       '@vitejs/plugin-vue': ^1.2.5
       '@vue/compiler-sfc': ^3.1.5
       cross-env: ^7.0.3
@@ -174,11 +175,11 @@ importers:
       stylus: ^0.54.8
       typescript: ^4.3.5
       vite: ^2.4.3
-      vite-plugin-windicss: workspace:*
       vue: ^3.1.5
     dependencies:
       vue: 3.1.5
     devDependencies:
+      '@jiangweixian1994/vite-plugin-windicss': link:../../packages/vite-plugin-windicss
       '@vitejs/plugin-vue': 1.2.5_@vue+compiler-sfc@3.1.5
       '@vue/compiler-sfc': 3.1.5_vue@3.1.5
       cross-env: 7.0.3
@@ -188,28 +189,27 @@ importers:
       stylus: 0.54.8
       typescript: 4.3.5
       vite: 2.4.3
-      vite-plugin-windicss: link:../../packages/vite-plugin-windicss
 
   examples/windicss-v3:
     specifiers:
+      '@jiangweixian1994/vite-plugin-windicss': workspace:*
       '@vitejs/plugin-vue': ^1.2.5
       '@vue/compiler-sfc': ^3.1.5
       cross-env: ^7.0.3
       nodemon: ^2.0.12
       typescript: ^4.3.5
       vite: ^2.4.3
-      vite-plugin-windicss: workspace:*
       vue: ^3.1.5
     dependencies:
       vue: 3.1.5
     devDependencies:
+      '@jiangweixian1994/vite-plugin-windicss': link:../../packages/vite-plugin-windicss
       '@vitejs/plugin-vue': 1.2.5_@vue+compiler-sfc@3.1.5
       '@vue/compiler-sfc': 3.1.5_vue@3.1.5
       cross-env: 7.0.3
       nodemon: 2.0.12
       typescript: 4.3.5
       vite: 2.4.3
-      vite-plugin-windicss: link:../../packages/vite-plugin-windicss
 
   packages/config:
     specifiers:
@@ -297,7 +297,7 @@ importers:
       '@types/connect': 3.4.35
       '@types/node': 16.4.3
       estree-walker: 2.0.1
-      tsup: 4.12.5
+      tsup: 4.12.5_typescript@4.3.5
       vite: 2.4.3
 
 packages:
@@ -1132,7 +1132,7 @@ packages:
       '@nodelib/fs.scandir': 2.1.4
       fastq: 1.11.0
 
-  /@rollup/pluginutils/4.1.0:
+  /@rollup/pluginutils/4.1.0_rollup@2.54.0:
     resolution: {integrity: sha512-TrBhfJkFxA+ER+ew2U2/fHbebhLT/l/2pRk0hfj9KusXUuRXd2v0R58AfaZK9VXDQ4TogOSEmICVrQAA3zFnHQ==}
     engines: {node: '>= 8.0.0'}
     peerDependencies:
@@ -1140,6 +1140,7 @@ packages:
     dependencies:
       estree-walker: 2.0.2
       picomatch: 2.3.0
+      rollup: 2.54.0
     dev: true
 
   /@sindresorhus/is/0.14.0:
@@ -1531,14 +1532,14 @@ packages:
       eslint-visitor-keys: 2.1.0
     dev: true
 
-  /@vitejs/plugin-react-refresh/1.3.5:
+  /@vitejs/plugin-react-refresh/1.3.5_rollup@2.54.0:
     resolution: {integrity: sha512-7c4ELQMygKw5YFCNMLhDHrt4BOgXmROP65gPax/W43mJPNQaYW8ny1kI/bvCDNuzMqZWSK8uf2tEjPVVBnZ5IQ==}
     engines: {node: '>=12.0.0'}
     dependencies:
       '@babel/core': 7.14.6
       '@babel/plugin-transform-react-jsx-self': 7.14.5_@babel+core@7.14.6
       '@babel/plugin-transform-react-jsx-source': 7.14.5_@babel+core@7.14.6
-      '@rollup/pluginutils': 4.1.0
+      '@rollup/pluginutils': 4.1.0_rollup@2.54.0
       react-refresh: 0.10.0
     transitivePeerDependencies:
       - rollup
@@ -6047,32 +6048,6 @@ packages:
 
   /tslib/1.14.1:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
-    dev: true
-
-  /tsup/4.12.5:
-    resolution: {integrity: sha512-3f0StcX+trOZvgaY/iU11U8HvvQ4v/LLgoP9OmxtOQVXP8e/Q8FSk69d0bXFb2pHB77CmVxvqiWdwybELQfx1A==}
-    hasBin: true
-    peerDependencies:
-      typescript: ^4.2.3
-    peerDependenciesMeta:
-      typescript:
-        optional: true
-    dependencies:
-      cac: 6.7.3
-      chalk: 4.1.1
-      chokidar: 3.5.1
-      debug: 4.3.2
-      esbuild: 0.12.9
-      execa: 5.0.0
-      globby: 11.0.3
-      joycon: 3.0.1
-      postcss-load-config: 3.0.1
-      resolve-from: 5.0.0
-      rollup: 2.52.8
-      sucrase: 3.18.1
-      tree-kill: 1.2.2
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /tsup/4.12.5_typescript@4.3.5:

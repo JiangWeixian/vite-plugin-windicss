@@ -1,11 +1,13 @@
 import { defineConfig } from 'vite'
 import reactRefresh from '@vitejs/plugin-react-refresh'
-import WindiCSS from 'vite-plugin-windicss'
+import WindiCSS from '@jiangweixian1994/vite-plugin-windicss'
 
 export default defineConfig({
   plugins: [
     reactRefresh(),
-    WindiCSS(),
+    WindiCSS({
+      transformStyledComponents: true
+    }),
   ],
   build: {
     sourcemap: true,

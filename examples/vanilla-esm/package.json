@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "vite": "^2.4.3",
-    "vite-plugin-windicss": "workspace:*",
+    "@jiangweixian1994/vite-plugin-windicss": "workspace:*",
     "windicss": "^3.1.6"
   }
 }
